@@ -1,0 +1,57 @@
+/*========IMPORT========*/
+
+/*========ROOT========*/
+
+/*========TAGS========*/
+body {
+  background-color: rgb(48, 48, 48);
+  color: #f2f2f2;
+}
+/*========REUSABLE========*/
+
+/*========CONTENT========*/
+#bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#mario {
+  width: 4%;
+  position: absolute;
+  bottom: 6%;
+  left: 10%;
+}
+
+#burger {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 10%;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: 2s ease-in all 3500ms;
+}
+
+/*========MEDIA QUERY========*/
+
+@media only screen and (max-width: 768px) {
+  #mario {
+    width: 4%;
+    position: absolute;
+    bottom: 61%;
+    left: 10%;
+  }
+
+  #burger {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 10%;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 2s ease-in all 3200ms;
+  }
+}
