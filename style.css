@@ -10,48 +10,32 @@ body {
 /*========REUSABLE========*/
 
 /*========CONTENT========*/
+.wrap-mario {
+  position: relative;
+}
+
 #bg {
   width: 100%;
   height: 100%;
-  position: relative;
 }
 
 #mario {
   width: 4%;
   position: absolute;
-  bottom: 6%;
+  bottom: 16%;
   left: 10%;
 }
 
 #burger {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 40%;
   width: 10%;
   opacity: 0;
   transform: scaleY(0);
   transform-origin: bottom;
-  transition: 2s ease-in all 3500ms;
+  transition: 1s ease-in transform 3500ms;
 }
 
 /*========MEDIA QUERY========*/
 
-@media only screen and (max-width: 768px) {
-  #mario {
-    width: 4%;
-    position: absolute;
-    bottom: 61%;
-    left: 10%;
-  }
-
-  #burger {
-    position: absolute;
-    top: 15%;
-    left: 40%;
-    width: 10%;
-    opacity: 0;
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: 2s ease-in all 3200ms;
-  }
-}
