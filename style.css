@@ -82,7 +82,7 @@ body {
 
 /*========MEDIA QUERY========*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .btn-mario-big {
     width: 50%;
     font-size: 1.6rem;
